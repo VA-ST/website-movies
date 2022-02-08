@@ -1,9 +1,4 @@
-/* #variables.css */
-/* variables globales */
 :root {
-
-/* Colores  */
-
   --live-indicator-shadow: hsla(0, 82%, 48%, 0.5);
   --black-fogra-30:   hsl(0, 0%, 0%);
   --black-fogra-29:   hsl(0, 100%, 3%);
@@ -15,23 +10,14 @@
   --yellow:                hsl(45, 100%, 54%);
   --white:                 hsl(0, 0%, 100%);
   --red:                 hsla(0, 100%, 50%, 0.583);
-
-  /*Tipografía */
-
   --ff-Montserrat: "Montserrat", sans-serif;
-
   --section-heading: 40px;
   --fs-lg:           22px;
   --fs-md:           17px;
   --fs-sm:           14px;
   --fs-x-sm:         12px;
-  
   --fw-7: 700;
   --fw-6: 600;
   --fw-5: 500;
-
-  /*Espaciado */
-
-  --px: 120px; /* padding-left & padding-right */
-
+  --px: 120px;
 }

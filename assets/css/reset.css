@@ -1,33 +1,16 @@
-/* #reset.css */
-
-/* Eliminar predeterminado margin & padding */
 * {
   margin: 0;
   padding: 0;
   transition: all 0.5s ease;
 }
-
-/**modelo de tamaño de caja más intuitivo.*/
 *, *::before, *::after { box-sizing: border-box; }
-
-/**Default font-family */
-
 html { font-family: var(--ff-Montserrat); }
-
-/**Todo el color del encabezado*/
-
 h1, h2, h3, h4, h5, h6 { color: var(--white); }
-
-/**Agregue fondo y color predeterminados, Mejore la representación de texto*/
-
 body {
   background: var(--black-fogra-29);
   color: var(--off-white);
   -webkit-font-smoothing: antialiased;
 }
-
-/**Cambiar imagen default*/
-
 img {
   display: block;
   width: 100%;
@@ -35,42 +18,26 @@ img {
   pointer-events: none;
   object-fit: cover;
 }
-
-/**remover form default*/
-
 input, button, select {
   font: inherit;
   background: none;
   border: none;
   outline: none;
 }
-
-/**agregar boton default*/
-
 button {
   color: var(--off-white);
   cursor: pointer;
 }
-
-/**quitar marcador de elemento de lista */
-
 li { list-style: none; }
-
-/**cambiar enlace por defecto*/
-
 a {
   text-decoration: none;
   display: block;
   color: var(--off-white);
 }
-
-/**cambiar el estilo predeterminado de la barra de desplazamiento*/
-
 ::-webkit-scrollbar {
   background: transparent;
   border-left: 1px solid var(--red-black);
 }
-
 ::-webkit-scrollbar-thumb {
   background: var(--light-red);
   border-radius: 5em;
